@@ -7,8 +7,7 @@
         "arb.transfers",
         "arb.payments.menu",
         "arb.homeScreen",
-        "arb.browse",
-        "arb.topupWithMokafaa"
+
     ],
     "Modules": {
         "dashboard": {
