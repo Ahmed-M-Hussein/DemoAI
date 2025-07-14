@@ -49,6 +49,22 @@
     "onPress": "direction:inApp/root:arb.dashboard/route:arb.financeProducts.listOfFinanceProducts"
   }
 },
+                {
+      id: 'banner',
+      type: 'Component',
+      Component: 'LeadingRectangle',
+      props: {
+        'style.margin': 16,
+        'towLine.button.title.value': 'Discover',
+        'twoLine.leftLineText.text1.value': 'Interested in new Mobile',
+        'twoLine.leftLineText.text2.value': 'We have an offer for you',
+        'image.uri':
+          'https://itresenja.com/wp-content/uploads/2024/10/MacRumors-iPhone-16-Pro-Max.png',
+
+        onPress:
+          'direction:action/actionName:marketPlaceProduct/keys:sku/values:iPhone16ProMax',
+      },
+    },
 
                 {
                     "id": "DashboardPendingActions",
