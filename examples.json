@@ -6,7 +6,7 @@
         "arb.dashboard",
         "arb.transfers",
         "arb.payments.menu",
-        "arb.homeScreen",
+        "arb.homeScreen"
 
     ],
     "Modules": {
