@@ -20,6 +20,11 @@
                     "Component": "StoryItemList",
                     "type": "Component"
                 },
+                 {
+                    "id": "DashboardBalance",
+                    "Component": "DashboardBalance",
+                    "type": "Component"
+                },
                 {
                     "id": "TravelCardsWidget",
                     "Component": "TravelCardsWidget",
@@ -27,11 +32,6 @@
                     "props": {
                         "dashboard": true
                     }
-                },
-                {
-                    "id": "DashboardBalance",
-                    "Component": "DashboardBalance",
-                    "type": "Component"
                 },
                 {
                     "id": "DashboardPendingActions",
