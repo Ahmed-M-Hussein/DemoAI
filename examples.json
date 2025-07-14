@@ -3,11 +3,11 @@
     "themeId": "travelTheme",
     "animationId": "",
     "tabs": [
-        "Home",
-        "Transer",
-        "Payment",
-        "lifeStyle",
-        "explore"
+        "arb.dashboard",
+        "arb.transfers",
+        "arb.payments.menu",
+        "arb.homeScreen",
+        "arb.browse"
     ],
     "Modules": {
         "dashboard": {
