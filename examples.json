@@ -16,17 +16,17 @@
             "moduleSubTitle": "",
             "moduleElements": [
                 {
+                    "id": "StoryItemList",
+                    "Component": "StoryItemList",
+                    "type": "Component"
+                },
+                {
                     "id": "TravelCardsWidget",
                     "Component": "TravelCardsWidget",
                     "type": "Component",
                     "props": {
                         "dashboard": true
                     }
-                },
-                {
-                    "id": "StoryItemList",
-                    "Component": "StoryItemList",
-                    "type": "Component"
                 },
                 {
                     "id": "DashboardBalance",
