@@ -66,7 +66,7 @@
     "id": "shsh",
     "Component": "Button",
     "type": "List",
-    "listdata": [
+    "listData": [
         {
             "title.value": "Button1",
             "onPress": "nl:true/direction:inApp/root:arb.dashboard/route:arb.cards"
