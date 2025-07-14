@@ -62,6 +62,26 @@
     "onPress": "direction:action/actionName:marketPlaceProduct/keys:sku/values:iPhone16ProMax"
   }
 },
+                {
+    "id": "shsh",
+    "Component": "Button",
+    "type": "List",
+    "listdata": [
+        {
+            "title.value": "Button1",
+            "onPress": "nl:true/direction:inApp/root:arb.dashboard/route:arb.cards"
+        },
+        {
+            "title.value": "Button2",
+            "onPress": "nl:true/direction:inApp/root:arb.dashboard/route:arb.cards"
+        },
+        {
+            "title.value": "Button3",
+            "onPress": "nl:true/direction:inApp/root:arb.dashboard/route:arb.cards"
+        }
+    ],
+    "listProps": {"style.margin":16}
+},
 
 
                 {
