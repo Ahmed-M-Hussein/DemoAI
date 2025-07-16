@@ -62,30 +62,6 @@
           }
         },
         {
-          "id": "shsh",
-          "Component": "Button",
-          "type": "List",
-          "props": {
-            "listData": [
-              {
-                "title.value": "Button1",
-                "onPress": "nl:true/direction:inApp/root:arb.dashboard/route:arb.cards"
-              },
-              {
-                "title.value": "Button2",
-                "onPress": "nl:true/direction:inApp/root:arb.dashboard/route:arb.cards"
-              },
-              {
-                "title.value": "Button3",
-                "onPress": "nl:true/direction:inApp/root:arb.dashboard/route:arb.cards"
-              }
-            ],
-            "listProps": {
-              "style.margin": 16
-            }
-          }
-        },
-        {
           "id": "DashboardPendingActions",
           "Component": "DashboardPendingActions",
           "type": "Component"
@@ -124,6 +100,40 @@
           "id": "DashboardTrendingServices",
           "Component": "DashboardTrendingServices",
           "type": "Component"
+        }
+      ]
+    },
+    "insurance": {
+      "moduleId": "Insurance",
+      "moduleTitle": "Insurance",
+      "moduleSubTitle": "Insurance",
+      "moduleElements": [
+        {
+          "id": "MyPolicies",
+          "Component": "MyPolicies",
+          "type": "Component"
+        },
+        {
+          "id": "ProtectionAndSeving",
+          "Component": "ProtectionAndSeving",
+          "type": "Component"
+        },
+        {
+          "id": "InsuranceServiceList",
+          "Component": "ProtectionAndSeving",
+          "type": "Component",
+          "props": [
+            "Motor",
+            "Medical",
+            "DomisticHelper",
+            "Travel",
+            "VisaExtention",
+            "ProtectionAndSeving",
+            "PrivatePension",
+            "SinglePremium",
+            "Home",
+            "TermLife"
+          ]
         }
       ]
     }
