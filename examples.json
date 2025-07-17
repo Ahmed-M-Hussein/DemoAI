@@ -32,11 +32,7 @@
             "dashboard": true
           }
         },
-         {
-          "id": "DashboardTrendingServices",
-          "Component": "DashboardTrendingServices",
-          "type": "Component"
-        },
+        
         {
           "id": "shortcut for you",
           "type": "Component",
@@ -124,7 +120,12 @@
           "id": "Donation",
           "Component": "Donation",
           "type": "Component"
-        }
+        },
+         {
+          "id": "DashboardTrendingServices",
+          "Component": "DashboardTrendingServices",
+          "type": "Component"
+        },
        
       ]
     }
