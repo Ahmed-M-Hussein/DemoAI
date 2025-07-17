@@ -125,7 +125,7 @@
           "id": "DashboardTrendingServices",
           "Component": "DashboardTrendingServices",
           "type": "Component"
-        },
+        }
        
       ]
     }
