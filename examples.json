@@ -32,7 +32,6 @@
             "dashboard": true
           }
         },
-        
         {
           "id": "shortcut for you",
           "type": "Component",
@@ -97,12 +96,11 @@
           "Component": "Donation",
           "type": "Component"
         },
-         {
+        {
           "id": "DashboardTrendingServices",
           "Component": "DashboardTrendingServices",
           "type": "Component"
         }
-       
       ]
     },
     "investment": {
@@ -129,13 +127,15 @@
           "id": "ExploreInvestmentProducts",
           "Component": "ExploreInvestmentProducts",
           "type": "Component",
-          "props": [
-            "FutureAccount",
-            "AwaedAccount",
-            "ProtectAndSavingAccount",
-            "TadaawulPortfolio",
-            "OpenMutalFundPortfolio"
-          ]
+          "props": {
+            "list": [
+              "FutureAccount",
+              "AwaedAccount",
+              "ProtectAndSavingAccount",
+              "TadaawulPortfolio",
+              "OpenMutalFundPortfolio"
+            ]
+          }
         }
       ]
     },
@@ -158,18 +158,73 @@
           "id": "InsuranceServiceList",
           "Component": "ProtectionAndSeving",
           "type": "Component",
-          "props": [
-            "Motor",
-            "Medical",
-            "DomisticHelper",
-            "Travel",
-            "VisaExtention",
-            "ProtectionAndSeving",
-            "PrivatePension",
-            "SinglePremium",
-            "Home",
-            "TermLife"
-          ]
+          "props": {
+            "list": [
+              "Motor",
+              "Medical",
+              "DomisticHelper",
+              "Travel",
+              "VisaExtention",
+              "ProtectionAndSeving",
+              "PrivatePension",
+              "SinglePremium",
+              "Home",
+              "TermLife"
+            ]
+          }
+        }
+      ]
+    },
+    "FinanceMain": {
+      "moduleId": "FinanceMain",
+      "moduleTitle": "",
+      "moduleSubTitle": "",
+      "moduleElements": [
+        {
+          "id": "FinanceMainProductExplore",
+          "Component": "FinanceMainProductExplore",
+          "type": "Component",
+          "props": {
+            "list": [
+              "PF",
+              "Mortgage",
+              "AutoLease",
+              "Tharwa"
+            ]
+          }
+        }
+      ]
+    },
+    "personalFinanceProducts": {
+      "moduleId": "financeProducts",
+      "moduleTitle": "",
+      "moduleSubTitle": "",
+      "moduleElements": [
+        {
+          "id": "MainProduct",
+          "Component": "MainProduct",
+          "type": "Component",
+          "props": {
+            "product": "PF"
+          }
+        },
+        {
+          "id": "PersonalFinanceProductsList",
+          "Component": "PersonalFinanceProductsList",
+          "type": "Component",
+          "props": {
+            "list": [
+              "WA3",
+              "SBF",
+              "3PF",
+              "NST",
+              "WRE",
+              "STF",
+              "GSF",
+              "PFB",
+              "EJP"
+            ]
+          }
         }
       ]
     }
