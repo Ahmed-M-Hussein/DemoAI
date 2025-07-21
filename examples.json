@@ -128,6 +128,40 @@
         }
        
       ]
+    },
+    "investment": {
+      "moduleId": "Investment",
+      "moduleTitle": "Investment",
+      "moduleSubTitle": "Investment",
+      "moduleElements": [
+        {
+          "id": "ExploreInvestmentServices",
+          "Component": "ExploreInvestmentServices",
+          "type": "Component",
+          "props": [
+            "TadaawulPortfolio",
+            "MutualFunds",
+            "SmartInvestment",
+            "IPO",
+            "GoldWallet",
+            "alrajhiCapital",
+            "MutualFundsTopup",
+            "MutualFundsAutoSubscribtion"
+          ]
+        },
+        {
+          "id": "ExploreInvestmentProducts",
+          "Component": "ExploreInvestmentProducts",
+          "type": "Component",
+          "props": [
+            "FutureAccount",
+            "AwaedAccount",
+            "ProtectAndSavingAccount",
+            "TadaawulPortfolio",
+            "OpenMutalFundPortfolio"
+          ]
+        }
+      ]
     }
   },
   "enhancedData": [
