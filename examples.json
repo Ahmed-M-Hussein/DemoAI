@@ -1,7 +1,7 @@
 {
   "id": "UITransformationEngine",
-  "themeId": "sakura",
-  "animationId": "S",
+  "themeId": "",
+  "animationId": "",
   "tabs": [
     "arb.dashboard",
     "arb.transfers",
