@@ -33,35 +33,6 @@
           }
         },
         {
-          "id": "shortcut for you",
-          "type": "Component",
-          "Component": "TwoLine",
-          "props": {
-            "style.margin": 16,
-            "leftLineText.text2.value": "You are Eligiable for Personal Finance  ",
-            "leftLineText.text1.value": "Congratulation 🎉",
-            "leftIcon.source": "Icons.finance.tokensSmall",
-            "leftIcon.backgroundColor": "@m2",
-            "leftIcon.color": "white",
-            "leftIcon.circular": true,
-            "cardVariant": "secondary",
-            "onPress": "direction:inApp/root:arb.dashboard/route:arb.financeProducts.listOfFinanceProducts"
-          }
-        },
-        {
-          "id": "banner",
-          "type": "Component",
-          "Component": "LeadingRectangle",
-          "props": {
-            "style.margin": 16,
-            "towLine.button.title.value": "Discover",
-            "twoLine.leftLineText.text1.value": "Interested in new Mobile",
-            "twoLine.leftLineText.text2.value": "We have an offer for you",
-            "image.uri": "https://itresenja.com/wp-content/uploads/2024/10/MacRumors-iPhone-16-Pro-Max.png",
-            "onPress": "direction:action/actionName:marketPlaceProduct/keys:sku/values:iPhone16ProMax"
-          }
-        },
-        {
           "id": "DashboardPendingActions",
           "Component": "DashboardPendingActions",
           "type": "Component"
