@@ -1,0 +1,96 @@
+{
+    "id": "UITransformationEngine",
+    "themeId": "",
+    "animationId": "",
+    "tabs": [
+        "arb.dashboard",
+        "arb.transfers",
+        "arb.payments.menu",
+        "arb.homeScreen"
+    ],
+    "moduleId": "financeProducts",
+    "moduleTitle": "",
+    "moduleSubTitle": "",
+    "moduleElements": [
+        {
+            "id": "MainProduct",
+            "Component": "MainProduct",
+            "type": "Component",
+            "props": {
+                "product": "PF"
+            }
+        },
+        {
+            "id": "PersonalFinanceProductsList",
+            "Component": "PersonalFinanceProductsList",
+            "type": "Component",
+            "props": {
+                "list": [
+                    "WA3",
+                    "SBF",
+                    "3PF",
+                    "NST",
+                    "WRE",
+                    "STF",
+                    "GSF",
+                    "PFB",
+                    "EJP"
+                ]
+            }
+        }
+    ],
+    "enhancedData": [
+        {
+            "id": "nextBestAccount",
+            "props": {
+                "icon": "Icons.user.example",
+                "name": "Million Saving Account",
+                "action": "nl:true/direction:action/actionName:openNewMilionAccount",
+                "benefits": [
+                    "Win up to 10% interest",
+                    "Free Deposit",
+                    "Free Withdrawal",
+                    "Free Transfer"
+                ]
+            }
+        },
+        {
+            "id": "nextBestFinance",
+            "props": {
+                "icon": "Icons.user.example2",
+                "name": "Personal Finance (Watni I)",
+                "action": "nl:true/direction:action/actionName:appllyForFinance/keys:productId/values:SFN",
+                "benefits": [
+                    "Benefit 1",
+                    "Benefit 2",
+                    "Benefit 3"
+                ]
+            }
+        },
+        {
+            "id": "nextBestCard",
+            "props": {
+                "icon": "Icons.user.example3",
+                "name": "Fursan Infinite",
+                "action": "nl:true/direction:action/actionName:appllyForCard/keys:cardBin/values:422689",
+                "benefits": [
+                    "Benefit 1",
+                    "Benefit 2",
+                    "Benefit 3"
+                ]
+            }
+        },
+        {
+            "id": "travelData",
+            "props": {
+                "contryCode": "EGP",
+                "currencyCode": "EGP",
+                "cardSerials": [
+                    "1234567890123456",
+                    "1234567890123457",
+                    "1234567890123458"
+                ]
+            }
+        }
+    ]
+}
