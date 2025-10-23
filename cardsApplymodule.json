@@ -1,0 +1,77 @@
+{
+    "id": "UITransformationEngine",
+    "themeId": "",
+    "animationId": "",
+    "tabs": [
+        "arb.dashboard",
+        "arb.transfers",
+        "arb.payments.menu",
+        "arb.homeScreen"
+    ],
+    "moduleId": "cardApply",
+    "moduleTitle": "",
+    "moduleSubTitle": "",
+    "moduleElements": [
+        {
+            "id": "featuredCards",
+            "Component": "CardApplyList",
+            "type": "Component",
+            "props": {
+                "titleEn": "Featured Cards",
+                "titleAr": "البطاقات المميزة",
+                "list": [
+                    " MARRIOTT_TYPE", 
+                    "ALFURSAN_TYPE"
+                ]
+            }
+        },
+        {
+            "id": "CreditCards",
+            "Component": "CardApplyList",
+            "type": "Component",
+            "props": {
+                "titleEn": "Credit cards",
+                "titleAr": "البطاقات الائتمانية",
+                "list": [
+                  "MOKAFAA_CARD_TYPE",
+                    "FLYNAS_TYPE",
+                    "ALFURSAN_TYPE",
+                   "CASHBACK_TYPE",
+                    "MARRIOTT_TYPE",
+                     "STUDENT",
+                ]
+            }
+        },
+        {
+            "id": "ChargeCards",
+            "Component": "CardApplyList",
+            "type": "Component",
+            "props": {
+                "titleEn": "Charge cards",
+                "titleAr": "البطاقات المدفوعة مسبقًا",
+                "list": [
+                  "CHARGE_CARD_TYPE",
+                  "CHARGE_CARD_TYPE_BLACK"
+                ]
+            }
+        },
+         {
+            "id": "PrepaidCards",
+            "Component": "CardApplyList",
+            "type": "Component",
+            "props": {
+                "titleEn": "Prepaid cards",
+                "titleAr": "البطاقات المدفوعة مسبقًا",
+                "list": [
+                    "TRAVEL_PLUS_TYPE"
+                    "GAMER"
+                    "VISA_TASAWAQ_TYPE",
+                    "DIGITAL_CASHBACK_CARD_TYPE"
+                ]
+            }
+        }
+    ],
+    "enhancedData": [
+       
+    ]
+}
