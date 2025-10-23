@@ -31,6 +31,11 @@
             }
         },
         {
+            "id": "SplitPaymentWidget",
+            "Component": "SplitPaymentWidget",
+            "type": "Component"
+        },
+        {
             "id": "DashboardPendingActions",
             "Component": "DashboardPendingActions",
             "type": "Component"
@@ -85,7 +90,7 @@
                     "Free Withdrawal",
                     "Free Transfer"
                 ],
-                 "benefitsAR": [
+                "benefitsAR": [
                     "Win up to 10% interest",
                     "Free Deposit",
                     "Free Withdrawal",
@@ -117,14 +122,14 @@
             "props": {
                 "icon": "Icons.user.example3",
                 "nameEn": "Fursan Infinite",
-                "nameAr":"فُرسان إنفينيتي",
+                "nameAr": "فُرسان إنفينيتي",
                 "action": "nl:true/direction:action/actionName:appllyForCard/keys:cardBin/values:422689",
                 "benefits": [
                     "Benefit 1",
                     "Benefit 2",
                     "Benefit 3"
                 ],
-                "benefitsAR":[
+                "benefitsAR": [
                     "Benefit 1",
                     "Benefit 2",
                     "Benefit 3"
@@ -140,6 +145,29 @@
                     "1234567890123456",
                     "1234567890123457",
                     "1234567890123458"
+                ]
+            }
+        },
+        {
+            "id": "splitPaymentData",
+            "props": {
+                "cardSerials": [
+                    "1234567890123456",
+                    "1234567890123457",
+                    "1234567890123458"
+                ],
+                "splitRequests": [
+                    {
+                        "id": "SP001",
+                        "name": "Ahmed",
+                        "amount": 250.00
+                    },
+                   
+                    {
+                        "id": "SP002",
+                        "name": "Abdulaziz",
+                        "amount": 100.00
+                    }
                 ]
             }
         }
