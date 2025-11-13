@@ -63,8 +63,8 @@
                 "titleEn": "Prepaid cards",
                 "titleAr": "البطاقات المدفوعة مسبقًا",
                 "list": [
-                    "TRAVEL_PLUS_TYPE"
-                    "GAMER"
+                    "TRAVEL_PLUS_TYPE",
+                    "GAMER",
                     "VISA_TASAWAQ_TYPE",
                     "DIGITAL_CASHBACK_CARD_TYPE"
                 ]
