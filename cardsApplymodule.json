@@ -20,8 +20,8 @@
                 "titleEn": "Featured Cards",
                 "titleAr": "البطاقات المميزة",
                 "list": [
-                    "MARIOT_TYPE",
-                    "CREDIT_CARD_TYPE"
+                    " MARRIOTT_TYPE", 
+                    "ALFURSAN_TYPE"
                 ]
             }
         },
@@ -33,8 +33,12 @@
                 "titleEn": "Credit cards",
                 "titleAr": "البطاقات الائتمانية",
                 "list": [
-                    "MARIOT_TYPE",
-                    "CREDIT_CARD_TYPE"
+                  "MOKAFAA_CARD_TYPE",
+                    "FLYNAS_TYPE",
+                    "ALFURSAN_TYPE",
+                   "CASHBACK_TYPE",
+                    "MARRIOTT_TYPE",
+                     "STUDENT",
                 ]
             }
         },
@@ -46,8 +50,8 @@
                 "titleEn": "Charge cards",
                 "titleAr": "البطاقات المدفوعة مسبقًا",
                 "list": [
-                    "MARIOT_TYPE",
-                    "CREDIT_CARD_TYPE"
+                  "CHARGE_CARD_TYPE",
+                  "CHARGE_CARD_TYPE_BLACK"
                 ]
             }
         },
@@ -59,8 +63,10 @@
                 "titleEn": "Prepaid cards",
                 "titleAr": "البطاقات المدفوعة مسبقًا",
                 "list": [
-                    "MARIOT_TYPE",
-                    "CREDIT_CARD_TYPE"
+                    "TRAVEL_PLUS_TYPE",
+                    "GAMER",
+                    "VISA_TASAWAQ_TYPE",
+                    "DIGITAL_CASHBACK_CARD_TYPE"
                 ]
             }
         }
