@@ -1,0 +1,28 @@
+{
+    "id": "UITransformationEngine",
+    "themeId": "",
+    "animationId": "",
+    "tabs": [
+        "arb.dashboard",
+        "arb.transfers",
+        "arb.payments.menu",
+        "arb.homeScreen"
+    ],
+    "moduleId": "MutualFunds",
+    "moduleTitle": "",
+    "moduleSubTitle": "",
+    "moduleElements": [
+    
+    ],
+    "enhancedData": [
+        {
+            "id": "fundListOrder",
+            "props": {
+                "ids": [
+                    "29911",
+                    "28344"
+                ]
+            }
+        }
+    ]
+}
