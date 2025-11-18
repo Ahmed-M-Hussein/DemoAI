@@ -11,16 +11,15 @@
     "moduleId": "MutualFunds",
     "moduleTitle": "",
     "moduleSubTitle": "",
-    "moduleElements": [
-    
-    ],
+    "moduleElements": [],
     "enhancedData": [
         {
             "id": "fundListOrder",
             "props": {
                 "ids": [
-                    "29911",
-                    "28344"
+                    29972,
+                    28535,
+                    28353
                 ]
             }
         }
