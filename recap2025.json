@@ -1,0 +1,87 @@
+{
+    "id": "UITransformationEngine",
+    "moduleId": "recap2025",
+    "moduleElements": [],
+    "enhancedData": [
+        {
+            "id": "totalSpend",
+            "props": {
+                "totalSpend": "1000000",
+                "percentwithinKsa": 10
+            }
+        },
+        {
+            "id": "trveler",
+            "props": {
+                "totalSpend": "6500",
+                "topTransactions": [
+                    {
+                        "currencyCode": "EGP",
+                        "nameAr": "مصر",
+                        "nameEn": "Egypt",
+                        "count": "80"
+                    },
+                    {
+                        "currencyCode": "USD",
+                        "amount": "100",
+                        "nameAr": " الولايات المتحدة الأمريكية",
+                        "nameEn": "USA"
+                    },
+                    {
+                        "currencyCode": "JPY",
+                        "amount": "50",
+                        "nameAr": "اليابان",
+                        "nameEn": "Japan"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "coffee",
+            "props": {
+                "totalSpend": "3000",
+                "percentwithinKsa": 10
+            }
+        },
+        {
+            "id": "car",
+            "props": {
+                "totalSpend": "5000"
+            }
+        },
+        {
+            "id": "game",
+            "props": {
+                "totalSpend": "2500",
+                "cashbackOnGameCard": 200,
+                "cashbackOnGameCardPresent": 7
+            }
+        },
+        {
+            "id": "food",
+            "props": {
+                "totalSpend": "4000"
+            }
+        },
+        {
+            "id": "shopping",
+            "props": {
+                "totalSpend": "7000"
+            }
+        },
+        {
+            "id": "recommendedSkin",
+            "props": {
+                "titleEn": "because you love to travel with alrajhi",
+                "titleAr": "بسبب أنك تحب السفر مع الراجحي",
+                "subTitleEn": "we've crated new Travel card skin to match your journeys and destinations",
+                "subTitleAr": "لقد قمنا بإنشاء غلاف بطاقة سفر جديد لتطابق مع الرحلات والوجهات الخاصة بك",
+                "nameEn": "Alrajhi Seoul - Night travel card",
+                "nameAr": "البطاقة السفرية للراجحي في",
+                "imageUrl": "https://arb-assets.s3.amazonaws.com/RecommendedSkin.png",
+                "skinPrice": "15",
+                "deeplink": "direction:inApp/root:arb.cards/route:arb.example.alrajhiSeoulNightTravelCard"
+            }
+        }
+    ]
+}
