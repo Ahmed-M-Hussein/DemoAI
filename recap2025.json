@@ -23,13 +23,13 @@
                     },
                     {
                         "currencyCode": "USD",
-                        "amount": "100",
+                        "count": "100",
                         "nameAr": " الولايات المتحدة الأمريكية",
                         "nameEn": "USA"
                     },
                     {
                         "currencyCode": "JPY",
-                        "amount": "50",
+                        "count": "50",
                         "nameAr": "اليابان",
                         "nameEn": "Japan"
                     }
@@ -39,8 +39,7 @@
         {
             "id": "coffee",
             "props": {
-                "totalSpend": "3000",
-                "percentwithinKsa": 10
+                "totalSpend": "3000"
             }
         },
         {
@@ -52,9 +51,7 @@
         {
             "id": "game",
             "props": {
-                "totalSpend": "2500",
-                "cashbackOnGameCard": 200,
-                "cashbackOnGameCardPresent": 7
+                "totalSpend": "2500"
             }
         },
         {
@@ -79,8 +76,12 @@
                 "nameEn": "Alrajhi Seoul - Night travel card",
                 "nameAr": "البطاقة السفرية للراجحي في",
                 "imageUrl": "https://arb-assets.s3.amazonaws.com/RecommendedSkin.png",
-                "skinPrice": "15",
-                "deeplink": "direction:inApp/root:arb.cards/route:arb.example.alrajhiSeoulNightTravelCard"
+                "subNameAr": "example",
+                "subNameEn": "exampe",
+                "deeplink": "direction:inApp/root:arb.cards/route:arb.example.alrajhiSeoulNightTravelCard",
+                "buttonTextAr":"Explore",
+                "buttonTextEn":"Explore"
+                
             }
         }
     ]
