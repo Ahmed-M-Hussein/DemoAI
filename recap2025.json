@@ -11,27 +11,21 @@
             }
         },
         {
-            "id": "trveler",
+            "id": "travel",
             "props": {
                 "totalSpend": "6500",
                 "topTransactions": [
                     {
-                        "currencyCode": "EGP",
-                        "nameAr": "مصر",
-                        "nameEn": "Egypt",
+                        "ISONumric": "818",
                         "count": "80"
                     },
                     {
-                        "currencyCode": "USD",
-                        "count": "100",
-                        "nameAr": " الولايات المتحدة الأمريكية",
-                        "nameEn": "USA"
+                         "ISONumric": "792",
+                         "count": "70"
                     },
                     {
-                        "currencyCode": "JPY",
-                        "count": "50",
-                        "nameAr": "اليابان",
-                        "nameEn": "Japan"
+                         "ISONumric": "876",
+                         "count": "40"
                     }
                 ]
             }
