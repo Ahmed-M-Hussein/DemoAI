@@ -69,12 +69,12 @@
                 "subTitleAr": "لقد قمنا بإنشاء غلاف بطاقة سفر جديد لتطابق مع الرحلات والوجهات الخاصة بك",
                 "nameEn": "Alrajhi Seoul - Night travel card",
                 "nameAr": "البطاقة السفرية للراجحي في",
-                "imageUrl": "https://arb-assets.s3.amazonaws.com/RecommendedSkin.png",
+                "imageUrl": "https://objectstorage.me-jeddah-1.oraclecloud.com/p/8FHcHb76ffLoQ0SSB5UhLCkt2iQXKaTom1BGFoSHl-cHhUcc8qWm_AP8NYUYNdMl/n/ax0k7s74wvl7/b/Icons/o/CARDSKIN-Dubai3x.png",
                 "subNameAr": "example",
                 "subNameEn": "exampe",
-                "deeplink": "direction:inApp/root:arb.cards/route:arb.example.alrajhiSeoulNightTravelCard",
-                "buttonTextAr":"Explore",
-                "buttonTextEn":"Explore"
+                "deeplink": "direction:inApp/root:arb.dashboard/route:arb.cardsServices/keys:cardServiceType/values:CARD_SKINS",
+                "buttonTextAr":"Explore Card Skins",
+                "buttonTextEn":"استكشف"
                 
             }
         }
